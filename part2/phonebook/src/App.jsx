@@ -52,6 +52,9 @@ const PersonForm = ({
 };
 
 const Persons = ({ filteredList, deletePerson }) => {
+    console.log('test');
+    console.log(filteredList);
+    console.log('test');
     return (
         <ul>
             {filteredList.map((p) => {
